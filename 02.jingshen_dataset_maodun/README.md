@@ -6,7 +6,7 @@
 
 ## 脚本
 
-- **`extract_jingshen.py`**：主程序，无第三方依赖（仅 Python 3.10+ 标准库）。
+- **`build_jingshen_dataset.py`**：主程序，无第三方依赖（仅 Python 3.10+ 标准库）。
 
 ## 逻辑说明
 
@@ -86,12 +86,12 @@
 在项目目录下（已激活 `jingshen_wsd` 亦可，脚本不依赖 conda 包）：
 
 ```bash
-cd /Users/rzhang/Documents/03.CBS5502/jingshen_disambi/02.jingshen_abstraction
-python extract_jingshen.py
+cd /Users/rzhang/Documents/03.CBS5502/jingshen_disambi/02.jingshen_dataset_maodun
+python build_jingshen_dataset.py
 ```
 
 自定义输入/输出：
 
 ```bash
-python extract_jingshen.py --input-dir /path/to/02_clean_digit --output-dir /path/to/output
+python build_jingshen_dataset.py --input-dir /path/to/02_clean_digit --output-dir /path/to/output
 ```
