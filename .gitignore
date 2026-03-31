@@ -1,0 +1,8 @@
+# 茅盾奖数字化原文与清洗正文（版权原因，不纳入远程仓库）
+01.dataset_maodun_literature/01_raw_digit/
+01.dataset_maodun_literature/02_clean_digit/
+
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
